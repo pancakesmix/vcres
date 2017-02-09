@@ -1,0 +1,8 @@
+<div id="disqus_thread"></div><script>window.addEventListener('message', receiveMessage, false);function receiveMessage(event){ if (event.data) { var msg; try { msg = JSON.parse(event.data); } catch (err) { } if (!msg) return false; if (msg.name === 'resize') { window.parent.postMessage({ sentinel: 'amp', type: 'embed-size', height: msg.data.height }, '*'); } }}</script><script>var disqus_config = function () {this.page.url = window.location;this.page.identifier = (window.location.hash)
+        .replace("1","https://www.vercalendario.info/es/")
+        .replace("2","https://www.vercalendario.info/en/")
+        .replace("3","https://www.vercalendario.info/pt/")
+        .replace("4","https://www.vercalendario.info/fr/")
+        .replace("5","https://www.vercalendario.info/it")
+        .replace("6","https://www.vercalendario.info/ja/")
+    ;};(function(){var d=document,s=d.createElement('script');s.src = '//calendars.disqus.com/embed.js';s.setAttribute('data-timestamp', +new Date());(d.head || d.body).appendChild(s);})();</script>
